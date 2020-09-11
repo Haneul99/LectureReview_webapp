@@ -1,0 +1,1209 @@
+	@font-face { font-family: 'Cafe24Oneprettynight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); font-weight: normal; font-style: normal; }
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #1B1B1B url(images/overlay.png) repeat;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 11pt;
+		font-weight: 400;
+		color: #000000;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #0000FF;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
+	
+
+/*********************************************************************************/
+/* Form Style                                                                    */
+/*********************************************************************************/
+
+		form
+		{
+		}
+		
+			form label
+			{
+				display: block;
+				text-align: left;
+				margin-bottom: 0.5em;
+			}
+			
+			form .submit
+			{
+				margin-top: 2em;
+				background: #67128F;
+				border-radius: 8px;
+				line-height: 1.5em;
+				font-size: 1.3em;
+			}
+		
+			form input.text,
+			form select,
+			form textarea
+			{
+				position: relative;
+				-webkit-appearance: none;
+				display: block;
+				border: 0;
+				background: #fff;
+				background: rgba(255,255,255,0.75);
+				width: 100%;
+				border-radius: 0.50em;
+				margin: 1em 0em;
+				padding: 1.50em 1em;
+				box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+				border: solid 1px rgba(0,0,0,0.15);
+				-moz-transition: all 0.35s ease-in-out;
+				-webkit-transition: all 0.35s ease-in-out;
+				-o-transition: all 0.35s ease-in-out;
+				-ms-transition: all 0.35s ease-in-out;
+				transition: all 0.35s ease-in-out;
+				font-family: 'Source Sans Pro', sans-serif;
+				font-size: 1em;
+				outline: none;
+			}
+
+				form input.text:hover,
+				form select:hover,
+				form textarea:hover
+				{
+				}
+
+				form input.text:focus,
+				form select:focus,
+				form textarea:focus
+				{
+					box-shadow: 0 0 2px 1px #E0E0E0;
+					background: #fff;
+				}
+				
+				form textarea
+				{
+					min-height: 12em;
+				}
+
+				form .formerize-placeholder
+				{
+					color: #555 !important;
+				}
+
+				form ::-webkit-input-placeholder
+				{
+					color: #555 !important;
+				}
+
+				form :-moz-placeholder
+				{
+					color: #555 !important;
+				}
+
+				form ::-moz-placeholder
+				{
+					color: #555 !important;
+				}
+
+				form :-ms-input-placeholder
+				{
+					color: #555 !important;
+				}
+
+				form ::-moz-focus-inner
+				{
+					border: 0;
+				}
+
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 3em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 1em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.20em;
+		font-size: 1.2em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: rgba(255,255,255,1);
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		background: #6C2A6A;
+		border-radius: 30px;
+		text-align: center;
+	}
+	
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.6em 1em;
+		background: #6C2A6A;
+		border-radius: 4px;
+		line-height: 1.8em;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #8DCB89;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+
+	.welcommessage{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.6em 1em;
+		background: #fff;
+		border-radius: 4px;
+		line-height: 1.8em;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1.2em;
+		float : right;
+		font-family: 'Cafe24Oneprettynight'
+	}
+
+	.loginButton{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.6em 1em;
+		background: #6C2A6A;
+		border-radius: 4px;
+		line-height: 1.8em;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFFFFF;
+		float:right;
+	}
+
+	.button-small{
+		display: inline-block;
+		margin: 2em auto;
+		padding: 0.6em 1em;
+		background: #6C2A6A;
+		border-radius: 4px;
+		line-height: 1.8em;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFFFFF;
+		font-family: 'Cafe24Oneprettynight'
+	}	
+
+	.button-small2{
+		display: inline-block;
+		margin: 0 auto;
+		padding: 0.6em 1em;
+		background: #6C2A6A;
+		border-radius: 4px;
+		line-height: 1,0em;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 0.8em;
+		color: #FFFFFF;
+		font-family: 'Cafe24Oneprettynight';
+		float:right;
+	}	
+
+	.button-small3{
+		display: inline-block;
+		margin: 0 auto;
+		padding: 0.6em 1em;
+		background: #6C2A6A;
+		border-radius: 4px;
+		line-height: 25px;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1.0em;
+		color: #FFFFFF;
+		float:right;
+		font-family: 'Cafe24Oneprettynight';
+	}
+	
+	.searchtext{
+		line-height: 25px;
+	}
+
+	#filtering{
+		float right;
+		font-family: 'Cafe24Oneprettynight';
+	}
+	#search{
+		width:20%;
+		float:right;
+	}
+
+	/*#ft{
+		width:20%;
+		height:30px;
+		padding:0;
+		font-size:12px; 
+		font-family: 'Cafe24Oneprettynight';
+		float:right;
+	}*/
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.8em;
+		color: #261300;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+
+	#header
+	{
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#logo h1
+	{
+		font-size: 3.5em;
+	}
+	
+	
+	#logo h1 a
+	{
+		color: #6C2A6A;
+	}
+
+	#logo a
+	{
+		text-decoration: none;
+	}
+	
+	#logo span
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: #3C3C3C;
+	}
+
+	#logo span a
+	{
+		color: #3C3C3C;
+	}
+	
+	#logo .icon
+	{
+		display: inline-block;
+		margin-bottom: 2em;
+		padding: 1em;
+		background: #6C2A6A;
+		border-radius: 50%;
+		font-size: 1.6em;
+		color: #FFF;
+	}
+	
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	/*.align-m
+	{
+		display:inline-block;
+
+	}
+
+	#menu
+	{
+		display:block;
+	}
+	
+	#menu ul
+	{
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #3C3C3C;
+	}
+
+	#writereview {display : none;}
+	#seereview {display : none;}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+		border: 1px solid #3C3C3C;
+	}
+
+	#menu ul li.write:hover #writereview{
+		display:block;
+
+	}
+
+	#write:hover #writereview {
+		display:block;
+	}
+	#menu ul li.see:hover #seereview{
+		display:block;
+		width:150px;
+	}*/
+
+	.navbar {
+	  overflow: hidden;
+	  background-color: none;
+	  text-align:center;
+	}
+
+	.navbar a {
+	  float: center;
+	  font-size: 16px;
+	  color: #3C3C3C;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	.dropdown {
+	 float:center;
+	 display:inline-block;
+	 overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+
+	  font-size: 16px;  
+	  border: none;
+	  outline: none;
+	  color: #3C3C3C;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: none;
+
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: white;
+	  min-width: 160px;
+	  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  float: none;
+	  color: #3c3c3c;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	.dropdown-content a:hover {
+	  background-color: #efe9f5;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper1
+	{
+		background: #FFF;
+	}
+
+	#wrapper2
+	{
+		background: #6C2A6A;
+	}
+
+	#container
+	{
+		background: #fff;
+	}
+
+	#wrapper3
+	{
+		overflow: hidden;
+		padding: 0em 0em 8em 0em;
+		background: #FFF;
+	}
+	
+	#wrapper4
+	{
+		overflow: hidden;
+		padding: 8em 0em 4em 0em;
+	}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		width: 1000px;
+		padding: 8em 100px 8em 100px;
+		text-align: center;
+		color: rgba(255,255,255,0.4);
+	}
+	
+	#welcome .content
+	{
+		padding: 0em 8em;
+	}
+	
+	#welcome .title h2
+	{
+		color: rgba(255,255,255,1);
+	}
+	
+	#script{
+		font-family: 'Cafe24Oneprettynight';
+		font-size:20px;
+	}
+
+	#welcome a,
+	#welcome strong
+	{
+		color: rgba(255,255,255,0.6);
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		padding: 8em 0em 5em 0em;
+		width :100%;
+		text-align: center;
+		background : #000000;
+	}
+
+	
+	#footer .title h2
+	{
+		color: rgba(255,255,255,1);
+	}
+
+
+	#footer .title .byline
+	{
+		font-family:'Cafe24Oneprettynight';
+		letter-spacing: normal;
+		text-transform: capitalize;
+		font-size: 1.6em;
+		color: rgba(255,255,255,0.2);
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		width :100%;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+		background : #000000;
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		color: rgba(255,255,255,0.2);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.4);
+	}
+
+/*********************************************************************************/
+/* Newsletter                                                                    */
+/*********************************************************************************/
+
+	#newsletter
+	{
+		overflow: hidden;
+		padding: 8em 0em;
+		background: #EDEDED;
+		text-align: center;
+	}
+	
+	#newsletter .title h2
+	{
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#newsletter .content
+	{
+		width: 600px;
+		margin: 0px auto;
+	}
+	
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio
+	{
+		padding-top: 8em;
+		font-family:'Cafe24Oneprettynight';
+	}
+	
+	#portfolio .box
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.7);
+	}
+	
+	#portfolio h3
+	{
+		display: block;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		font-size: 1em;
+		color: rgba(0,0,0,0.9);
+	}
+
+	#portfolio .title
+	{
+		margin-bottom: 5em;
+		text-align: center;
+	}
+
+	#portfolio .title h2
+	{
+		color: rgba(0,0,0,0.8);
+	}
+
+	#portfolio .title .byline
+	{
+		letter-spacing: normal;
+		text-transform: capitalize;
+		font-size: 1.6em;
+		color: rgba(0,0,0,0.6);
+	}
+	
+	#portfolio .icon
+	{
+		display: inline-block;
+		margin-bottom: 2em;
+		font-size: 1.6em;
+		color: rgba(0,0,0,0.8);
+	}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+	
+	.column1,
+	.column2,
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* Three Columns                                                                 */
+/*********************************************************************************/
+
+	#three-column
+	{
+		overflow: hidden;
+		padding-bottom: 4em;
+		text-align: center;
+	}
+	
+	#three-column h2
+	{
+		margin: 1em 0em;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	
+	#three-column .icon
+	{
+		position: relative;
+		display: block;
+		margin: 0px auto 0.80em auto;
+		line-height: 150px;
+		font-size: 4em;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		text-align: center;
+		color: #632F00;
+		
+	}
+		
+	#three-column #tbox1,
+	#three-column #tbox2,
+	#three-column #tbox3
+	{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+	}
+	
+	#three-column .title
+	{
+		letter-spacing: 0.10em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	#three-column .title h2
+	{
+		font-size: 1.60em;
+		font-weight: 900;
+		font-family: 'Open Sans', sans-serif;
+		color: #261300;
+	}
+	
+	#three-column .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#three-column .arrow-down
+	{
+		border-top-color: #292929;
+	}
+
+	
+
+/*********************************************************************************/
+/* full-width 관련                                      
+/****************************************  */
+	.wrapper_2{
+		display:block;
+		width:100%; 
+		margin:0; 
+		background:#fff;
+	}
+
+	.wrapper_reading{
+		display:block;
+		width:100%; 
+		margin:0; 
+		background:#fff;
+	}
+
+	#writing{
+		width:60%;
+		padding: 8em 0em;
+		margin: 0 auto;
+		font-family: 'Cafe24Oneprettynight';
+	}
+
+	#reading{
+		width:60%;
+		padding: 8em 0em;
+		margin: 0 auto;
+		font-family: 'Cafe24Oneprettynight';
+	}
+
+	#reading2{
+		width:100%;
+		padding: 8em 0em;
+		margin: 0 auto;
+		font-family: 'Cafe24Oneprettynight';
+	}
+	}
+
+
+
+
+/************************* table*************************/
+
+.wrap-table100 {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: 'Cafe24Oneprettynight';
+}
+
+.table {
+  font-family: 'Cafe24Oneprettynight';
+  width: 100%;
+  display: table;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    display: block;
+  }
+}
+
+.row {
+  display: table-row;
+  background: #fff;
+}
+
+.row.header {
+  color: #ffffff;
+  background: #6C2A6A;
+  font-family: 'Cafe24Oneprettynight';
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: block;
+  }
+
+  .row.header {
+    padding: 0;
+    height: 0px;
+  }
+
+  .row.header .cell {
+    display: none;
+    font-family: 'Cafe24Oneprettynight'
+  }
+
+  .row .cell:before {
+	font-family: 'Cafe24Oneprettynight'
+    font-size: 20px;
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset !important;
+
+    margin-bottom: 13px;
+    content: attr(data-title);
+    min-width: 98px;
+    display: block;
+  }
+}
+
+.cell {
+  display: table-cell;
+  font-family: 'Cafe24Oneprettynight'
+}
+
+@media screen and (max-width: 768px) {
+  .cell {
+    display: block;
+  }
+}
+
+.row .cell {
+  font-family: 'Cafe24Oneprettynight'
+  font-size: 20px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.row.header .cell {
+  font-family: 'Cafe24Oneprettynight'
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.row .cell:nth-child(1) {
+  width: 20%;
+  padding-left: 40px;
+  text-align:center;
+}
+
+.row .cell:nth-child(2) {
+  width: 15%%;
+  text-align:center;
+}
+
+.row .cell:nth-child(3) {
+  width: 50%;
+  text-align:center;
+}
+
+.row .cell:nth-child(4) {
+  width: 15%px;
+  text-align:center;
+}
+
+
+.table, .row {
+  width: 100% !important;
+}
+
+.row:hover {
+  background-color: #efe9f5;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .row {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 18px;
+    padding-top: 30px;
+    padding-right: 15px;
+    margin: 0;
+  }
+  
+  .row .cell {
+    border: none;
+    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .row .cell:nth-child(1) {
+    padding-left: 30px;
+  }
+  
+  .row .cell {
+    font-family: 'Cafe24Oneprettynight'
+    font-size: 20px;
+    color: #555555;
+    line-height: 1.2;
+    font-weight: unset !important;
+  }
+
+  .table, .row, .cell {
+    width: 100% !important;
+  }
+}
+
+.reviewtitle:link {text-decoration: none; color: #333333;}
+.reviewtitle:visited {text-decoration: none; color: #333333;}
+.reviewtitle:active {text-decoration: none; color: #333333;}
+.reviewtitle:hover {text-decoration: underline; color: #6C2A6A;}
+
+
+/***********************login************************/
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.for_login {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.for_login input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.for_login button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #6C2A6A;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.for_login button:hover,.for_login button:active,.for_login button:focus {
+  background: #b68ebd;
+}
+.for_login .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.for_login .message a {
+  color: #6C2A6A;
+  text-decoration: none;
+}
+.for_login .register-form {
+  display: none;
+}
+
+body {
+   background-color:#FFFFFF;
+   font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+
+/*********리뷰보기창********/
+
+.show{
+	text-align:center;
+	font-size: 18px;
+}
+
+.read{
+	line-height: 150%;
+}
+
+.readingcontentes{
+
+}
+
+
+.membership{
+	text-align: center;
+}
+
+.inputtext{
+	line-height: 25px;
+}
